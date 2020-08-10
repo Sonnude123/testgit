@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Báo hoa học trò</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="test.css">
+    <script type="text/javascript" src="test.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="son.html">Báo hoa học trò</a>
+            <a href="#">Báo dân trí</a>
+            <a href="#">Báo bóng đá</a>
+            <a href="#">Báo thanh niên</a>
+            <a href="#">Báo mới</a>
+            <a href="#">Báo cũ</a>
+        </div>
+
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">☰ Menu</button>
+        </div>
+
+    </header>
+    <a id="bao" href="test.html">
+        <h1> BAOVN </h1>
+    </a>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <a href="#"><img src="image/bia.jpg" style="width:100%"></a>
+            <div class="text">Hoa học trò số 1</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <a href="#"><img src="image/bia2.jpg" style="width:100%"></a>
+            <div class="text">Hoa học trò số 2</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <a href="#"><img src="image/trang.jpg" style="width:100%"></a>
+            <div class="text">Hoa học trò số 3</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+
+    <!--mẫu báo-->
+
+    <div class="owl-stage-outer">
+        <div class="owl-stage" style="transform: translate3d(-3195px, 0px, 0px); transition: all 0s ease 0s; width: 6745px;">
+            <div class="owl-item cloned" style="width: 335px; margin-right: 20px;">
+                <a href="single-product.html">
+                    <div class="featured-item">
+                        <img src="assets/images/bia1.jpg" alt="Item 5">
+                        <h4>Morbi aliquet</h4>
+                        <h6>$55.00</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="owl-item cloned" style="width: 335px; margin-right: 20px;">
+                <a href="single-product.html">
+                    <div class="featured-item">
+                        <img src="assets/images/bia1.jpg" alt="Item 6">
+                        <h4>Urna ac diam</h4>
+                        <h6>$65.00</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="owl-item cloned" style="width: 335px; margin-right: 20px;">
+                <a href="single-product.html">
+                    <div class="featured-item">
+                        <img src="assets/images/bia1.jpg" alt="Item 7">
+                        <h4>Proin eget imperdiet</h4>
+                        <h6>$75.00</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="owl-item cloned" style="width: 335px; margin-right: 20px;">
+                <a href="single-product.html">
+                    <div class="featured-item">
+                        <img src="assets/images/bia1.jpg" alt="Item 8">
+                        <h4>Nullam risus nisl</h4>
+                        <h6>$85.00</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="owl-item cloned" style="width: 335px; margin-right: 20px;">
+                <a href="single-product.html">
+                    <div class="featured-item">
+                        <img src="assets/images/bia1.jpg" alt="Item 9">
+                        <h4>Cras tempus</h4>
+                        <h6>$95.00</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="owl-item" style="width: 335px; margin-right: 20px;">
+                <a href="single-product.html">
+                    <div class="featured-item">
+                        <img src="assets/images/bia1.jpg" alt="Item 1">
+                        <h4>Proin vel ligula</h4>
+                        <h6>$15.00</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="owl-item" style="width: 335px; margin-right: 20px;">
+                <a href="single-product.html">
+                    <div class="featured-item">
+                        <img src="assets/images/bia1.jpg" alt="Item 2">
+                        <h4>Erat odio rhoncus</h4>
+                        <h6>$25.00</h6>
+                    </div>
+                </a>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <footer>
+                <h3>SUBCRIBE on BAOVN now!</h3>
+                <form action="/action_page.php">
+
+                    <label for="lname">Subcribe here:</label><br>
+                    <input type="text" id="lname" name="lname" value="Your email ..."><br><br>
+                    <input type="submit" value="Subcribe">
+
+                </form>
+
+                <button class="open-button" onclick="openForm()">Chat</button>
+
+                <div class="chat-popup" id="myForm">
+                    <form action="/action_page.php" class="form-container">
+                        <h1>Chat</h1>
+
+                        <label for="msg"><b>Message</b></label>
+                        <textarea placeholder="Type message.." name="msg" required></textarea>
+
+                        <button type="submit" class="btn">Send</button>
+                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                    </form>
+                </div>
+
+
+            </footer>
+</body>
+
+</html>
